@@ -1,0 +1,53 @@
+body{
+    background-image:url('sky.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.main-div{
+    background-color: #c0f4f7;
+    margin:0 auto;
+    padding:2rem;
+    width:300px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    box-shadow: gray 10px 10px 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+input{
+    height:2rem;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+
+.submit{
+    height:2rem;
+    border-radius: 5px;
+    width:5rem;
+    cursor: pointer;
+    background-color: pink;
+}
+
+.submit:hover{
+    background-color: rgb(255, 126, 147);
+}
+
+.out-div{
+    margin-top:2rem;
+}
+#output{
+    font-size: 30px;
+}
+
