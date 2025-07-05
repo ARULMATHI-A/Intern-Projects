@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Netflix</title>
+    <link rel="icon" type="image/x-icon" href="Netflix2.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="main-div">
+        <div class="inner-maindiv">
+        <h2>Sign In</h2>
+        <div class="signin">
+            <input class="data"type="text" placeholder="Email or mobile number"/><br>
+            <input class="data" id='pwd' type="password" placeholder="Password" oninput="checkPwd()"/><br>
+            <p id="demo"></p>
+            <button class="signinbtn">Sign In</button>
+            <p>OR</p>
+            <button>Use a sign-in code</button><br>
+            <a href="#">Forgot password?</a>
+            <div class="signup">
+                <div class="checkdiv">
+                <input class="check" type="checkbox" id="checkbox"/>
+                <label for="checkbox" >Remember me</label><br>
+                </div>
+                <label class="gray">New to Netflix?</label>
+                <a class="signupa" href="login.html">Sign up now.</a><br>
+                <p class="gray">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+                <a class="learnmore "href="#">Learn more.</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
